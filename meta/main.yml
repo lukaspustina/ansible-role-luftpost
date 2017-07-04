@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: Lukas Pustina
+  description: Installs luftpost
+  company: Lukas Pustina
+  license: MIT
+  min_ansible_version: 2.0
+  platforms:
+  - name: Ubuntu
+  galaxy_tags:
+    - installer
+    - luftpost
+    - luftdaten
+dependencies: []
+

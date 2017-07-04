@@ -1,6 +1,8 @@
 luftpost
 =========
 
+[![Build Status](https://travis-ci.org/lukaspustina/ansible-role-luftpost.svg?branch=master)](https://travis-ci.org/lukaspustina/ansible-role-luftpost)
+
 Installs and configures [luftpost](https://github.com/lukaspustina/luftpost/) which watches luftdaten.info particulates sensors and sends E-Mails if measurements exceed thresholds.
 
 Requirements

@@ -23,7 +23,7 @@ script:
   # Basic role syntax check
   - cd tests; ./run_tests.sh
   - dpkg -l | grep luftpost
-  - file /etc/luftdaten/luftdaten.conf
+  - file /etc/lustpost/luftpost.conf
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/

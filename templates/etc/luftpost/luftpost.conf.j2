@@ -1,5 +1,5 @@
 [general]
-{% if _luftpost.config.general.state_dir is defined %}state_dir = {{ _luftpost.config.general.state_dir }}
+{% if _luftpost.config.general.state_dir is defined %}state_dir = "{{ _luftpost.config.general.state_dir }}"
 {% endif %}
 
 [defaults]

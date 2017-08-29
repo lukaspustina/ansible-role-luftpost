@@ -8,6 +8,8 @@ _luftpost:
     hour: "*"
   config:
     file_name: /etc/luftpost/luftpost.conf
+    general:
+      # state_dir: /var/lib/luftpost
     defaults:
       threshold_pm10: 20.0
       threshold_pm2: 20.0

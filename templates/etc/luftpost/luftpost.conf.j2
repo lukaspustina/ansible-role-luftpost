@@ -1,3 +1,7 @@
+[general]
+{% if _luftpost.config.general.state_dir is defined %}state_dir = {{ _luftpost.config.general.state_dir }}
+{% endif %}
+
 [defaults]
 {% if _luftpost.config.defaults.threshold_pm10 is defined %}threshold_pm10 ={{ _luftpost.config.defaults.threshold_pm10 }}
 {% endif %}

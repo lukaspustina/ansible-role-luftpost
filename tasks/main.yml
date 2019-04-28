@@ -15,7 +15,7 @@
 - name: Apt Update
   apt:
     update_cache: yes
-  when: repo_added|changed
+  when: repo_added is changed
 
 - name: Install luftpost
   apt:
